@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/Aaron-lv/Clash.git"
-          source_branch: "main"
-          destination_branch: "main"
+          source_branch: "master"
+          destination_branch: "master"
           github_token: ${{ secrets.PAT }}
